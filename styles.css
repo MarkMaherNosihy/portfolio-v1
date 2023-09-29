@@ -118,17 +118,20 @@ textarea {
 
 #welcome .welcome-text {
     grid-column: 1/9;
+    grid-row: 2
 }
 
 .welcome-img {
     grid-column: 1/9;
-    grid-row: 2;
+    margin: 20px 0;
+    grid-row: 1;
 }
 
 .welcome-img img {
     max-width: 100%;
     width: 250px;
     height: 250px;
+    background-size: cover;
     border-radius: 50%;
 
 }
@@ -264,7 +267,7 @@ footer img {
 
 
 /* Small tablet styles */
-@media screen and (min-width: 620px) {
+@media screen and (min-width: 720px) {
 
     .projects a {
         grid-column: span 4;
@@ -277,6 +280,7 @@ footer img {
 
     #welcome .welcome-text {
         grid-column: 1/5;
+        grid-row: 1;
     }
 
     #welcome .welcome-img {
